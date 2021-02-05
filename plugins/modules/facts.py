@@ -381,7 +381,7 @@ class Interfaces(FactsBase):
 class Routing(FactsBase):
 
     COMMANDS = [
-        '/routing bgp peer print detail without-paging',
+        '/routing bgp peer print status without-paging',
         '/routing bgp vpnv4-route print detail without-paging',
         '/routing bgp instance print detail without-paging',
         '/ip route print detail without-paging',
